@@ -1,9 +1,9 @@
 -command_not_found_handle() {
 	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
 }
-echo -e "\033[1;92m			___ ____ ____ _  _ _  _ _  _ "
-echo -e "\033[1;93m			 |  |___ |__/ |\/| |  |  \/  "
-echo -e "\033[1;96m 			|  |___ |  \ |  | |__| _/\_ "
+echo -e "\033[1;92m	___ ____ ____ _  _ _  _ _  _ "
+echo -e "\033[1;93m             |  |___ |__/ |\/| |  |  \/  "
+echo -e "\033[1;96m 		|  |___ |  \ |  | |__| _/\_ "
 echo
 echo -e "\033[1;92m			___  ____ ____ ___ \033[1;93m"
 echo -e "\033[1;93m			|__] |  | |  |  |  \033[1;95m"
@@ -26,7 +26,7 @@ echo -e "	\e[91m[ 4 ]\e[93m Open Tools"
 echo -e "	\e[91m[ 5 ]\e[93m Upgrading"
 echo -e "	\e[91m[ 6 ]\e[93m Termux-Root"
 echo -e "	\e[91m[ 7 ]\e[93m Termux Os"
-echo -e "	\e[91m[ 8 ]\e[93m Termux-New-Look Update"	
+echo -e "	\e[91m[ 8 ]\e[92m Termux-New-Look Update"	
 echo -e "	\e[91m[ 9 ]\e[93m Exit"
 echo -e "\033[1;96m"
 read -p 'select_option >' opt
