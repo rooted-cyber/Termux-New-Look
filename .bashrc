@@ -1,7 +1,7 @@
 -command_not_found_handle() {
 	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
 }
-echo -e "\033[1;92m	___ ____ ____ _  _ _  _ _  _ "
+echo -e "\033[1;92m            ___ ____ ____ _  _ _  _ _  _ "
 echo -e "\033[1;93m             |  |___ |__/ |\/| |  |  \/  "
 echo -e "\033[1;96m 		|  |___ |  \ |  | |__| _/\_ "
 echo
