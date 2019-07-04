@@ -1,2 +1,3 @@
 # Termux-New-Look
-# Installation bash setup.sh
+# Installation 
+bash setup.sh
