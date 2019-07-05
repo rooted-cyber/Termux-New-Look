@@ -1,9 +1,9 @@
-echo -e "\033[92m"
-apt update
-apt upgrade
+clear
+clear
+clear
 apt-get install figlet
 clear
-echo "Requirement Installed"
+echo -e "\033[1;92m Requirement Installed\033[1;93m"
 figlet Open
 figlet Tools
 echo
@@ -21,7 +21,9 @@ echo "			10.Metasploit"
 echo "			11.Malicious"
 echo
 echo -e "\033[1;96m"
-echo "Termux os"
+echo -e "\033[1;96m================================================================\e[0m"
+echo -e "\033[1;92m                           Termux os                 "
+echo -e "\033[1;96m================================================================\e[0m"
 echo "			12.Kali"
 echo "			13.Kali Nethunter"
 echo "			14.Ubuntu"
