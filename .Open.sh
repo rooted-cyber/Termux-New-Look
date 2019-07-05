@@ -7,6 +7,10 @@ echo -e "\033[1;92m Requirement Installed\033[1;93m"
 figlet Open
 figlet Tools
 echo
+echo -e "\033[1;96m======================================================\e[0m"
+echo -e "\033[1;92m                      Termux Tools                "
+echo -e "\033[1;96m======================================================\e[0m"
+echo 
 echo -e "\033[1;93m"
 echo "			1.Tool-X"
 echo "			2.DarkFly"
@@ -22,9 +26,9 @@ echo "			11.Malicious"
 echo
 echo -e "\033[1;96m"
 echo -e "\033[1;96m======================================================\e[0m"
-echo -e "\033[1;92m                           Termux os                 "
+echo -e "\033[1;92m                      Termux os                 "
 echo -e "\033[1;96m======================================================\e[0m"
-echo -e "		12.Kali"
+echo "      12.Kali"
 echo "			13.Kali Nethunter"
 echo "			14.Ubuntu"
 echo "			15.Debian"
