@@ -77,7 +77,7 @@ bash .Installation.sh
 fi
 if [ $opt -eq 4 ];then
 cd $HOME
-bash .open.sh
+bash .Open.sh
 fi
 if [ $opt -eq 5 ];then
 apt update
