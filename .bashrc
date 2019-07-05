@@ -1,18 +1,6 @@
 -command_not_found_handle() {
 	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
 }
-echo -e "\033[1;92m            ___ ____ ____ _  _ _  _ _  _ "
-echo -e "\033[1;93m             |  |___ |__/ |\/| |  |  \/  "
-echo -e "\033[1;96m 		|  |___ |  \ |  | |__| _/\_ "
-echo
-echo -e "\033[1;92m			___  ____ ____ ___ \033[1;93m"
-echo -e "\033[1;93m			|__] |  | |  |  |  \033[1;95m"
-echo -e "\033[1;95m			|__] |__| |__|  |  \033[1;96m"
-echo
-echo -e "\033[1;92m			_  _ ____ _  _ _  _ "
-echo -e "\033[1;93m			|\/| |___ |\ | |  | "
-echo -e "\033[1;96m			|  | |___ | \| |__| "
-
 echo
 echo -e "\e[1;96m===============================================\e[96m"
 echo -e "\e[1;96m		Termux-Boot-Menu		\e[0m"
