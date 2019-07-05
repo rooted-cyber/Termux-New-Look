@@ -1,3 +1,4 @@
+clear
 echo -e "\033[91m"
 echo "please wait.........."
 sleep 2
