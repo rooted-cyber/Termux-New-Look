@@ -27,6 +27,9 @@ chmod 777 $HOME/.Installation.sh
 chmod 777 $HOME/.Termux_os.sh
 chmod 777 $HOME/.bashrc
 chmod 777 $HOME/.Open.sh
+cp -f .Game.sh $HOME
+chmod 777 $HOME/.Game.sh
+rm -Rf $HOME/Termux-New-Look
 sleep 3
 echo "Successfully Changed Termux"
 echo
