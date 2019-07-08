@@ -156,7 +156,7 @@ clear
 git clone https://github.com/android-rooted/TWRP-USES
 cd TWRP-USES
 chmod 777 *
-bash set.sh
+bash setup.sh
 cd $HOME
 bash .Installation.sh
 fi
@@ -165,6 +165,7 @@ clear
 git clone https://github.com/android-rooted/Whatsapp-Settings
 cd Whatsapp-Settings
 chmod 777 *
+bash set.sh
 clear
 echo "Whatsapp-Settings Installed"
 sleep 2
