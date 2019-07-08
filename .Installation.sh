@@ -156,7 +156,7 @@ clear
 git clone https://github.com/android-rooted/TWRP-USES
 cd TWRP-USES
 chmod 777 *
-bash Twrp.sh
+bash set.sh
 cd $HOME
 bash .Installation.sh
 fi
