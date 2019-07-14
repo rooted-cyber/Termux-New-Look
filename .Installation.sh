@@ -85,6 +85,13 @@ clear
 git clone -b Termux-Support-Branch https://github.com/DarkSecDevelopers/HiddenEye.git
 cd HiddenEye
 chmod 777 HiddenEye.py
+apt update
+apt upgrade
+apt-get install python
+apt-get install python2
+pip install --upgrade pip
+pip2 install --upgrade pip
+pip2 install wget
 clear
 echo "HiddenEye Installed"
 sleep 2
