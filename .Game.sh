@@ -21,7 +21,7 @@ clear
 clear
 apt update
 apt upgrade
-apt-get install moon-gubby
+apt-get install moon-buggy
 clear
 echo "	[~] Successfully Installed"
 fi
