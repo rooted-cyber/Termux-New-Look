@@ -74,7 +74,7 @@ cd $HOME/seeker
 python3 seeker.py
 fi
 if [ $opt -eq 10 ];then
-msfcosole
+msfconsole
 fi
 if [ $opt -eq 11 ];then
 cd $HOME/Malicious
