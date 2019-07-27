@@ -1,7 +1,7 @@
 echo -e "\033[1;92m"
 echo "please wait....."
-apt update
-apt upgrade
+
+
 apt-get install toilet
 apt-get install figlet
 clear
