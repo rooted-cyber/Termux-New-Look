@@ -23,6 +23,8 @@ cp -f .Installation.sh $HOME
 cp -f .bashrc $HOME
 cp -f .Termux_os.sh $HOME
 cp -f .Open.sh $HOME
+cp -f .short.sh $HOME
+chmod 777 $HOME/.short.sh
 chmod 777 $HOME/.Installation.sh
 chmod 777 $HOME/.Termux_os.sh
 chmod 777 $HOME/.bashrc
