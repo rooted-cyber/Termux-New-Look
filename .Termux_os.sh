@@ -21,7 +21,7 @@ echo "			7.Alpine"
 echo "			8.Main Menu"
 echo "			9.Exit"
 echo -e "\033[1;96m"
-read -p '			select_option >' opt
+read -p '	select_option >' opt
 echo -e "\e[1;92m"
 if [ $opt -eq 1 ];then
 clear
