@@ -32,7 +32,7 @@ python2 lazymux.py'
 alias tool='Tool-X'
 alias p='python'
 alias p2='python2'
-slias p3='python3'
+alias p3='python3'
 echo
 echo -e "\e[1;96m===============================================\e[96m"
 echo -e "\e[1;96m		Termux-Boot-Menu		\e[0m"
