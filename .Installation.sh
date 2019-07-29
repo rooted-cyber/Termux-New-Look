@@ -1,13 +1,4 @@
-clear
-echo -e "\033[91m"
-echo "please wait.........."
-sleep 2
-apt-get install toilet
-apt-get install figlet
-clear
-echo -e "\033[1;92m"
-echo "Requirement Installed"
-sleep 2
+
 clear
 echo -e "\e[96m=================================================\e[93m"
 echo
