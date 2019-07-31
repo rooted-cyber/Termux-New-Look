@@ -224,7 +224,7 @@ chmod 777 *
 clear
 echo -e "\033[1;93m Install successfull"
 cd $HOME
-bash Installation.sh
+bash .Installation.sh
 fi
 if [ $opt -eq 15 ];then
 clear
