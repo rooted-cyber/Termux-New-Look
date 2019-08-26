@@ -4,7 +4,7 @@ echo "please wait....."
 
 apt-get install toilet
 apt-get install figlet
-apt-get install ncurses-util
+apt-get install ncurses-utils
 clear
 echo "Requirements installed"
 sleep 2
