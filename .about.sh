@@ -30,16 +30,22 @@ echo "$a Termux-New-Look $b Create $c by $d Maruf"
 toilet -f term -F gay =============================================
 echo
 echo
-echo "$e Many Feature Available Termux-New-Look"
-echo "$i Termux-New-Look specially for new Termux user"
+echo "$a Many Feature Available Termux-New-Look"
+echo "$a Termux-New-Look specially for new Termux user"
 echo
 echo "$a Termux-New-Look Last Updated$b  28 August 2019"
 echo 
-echo "$c My github link$d :-$e http://github.com/android-rooted"
+echo "$a My github link$d :-$e http://github.com/android-rooted"
 echo
-echo "$d This Tool Github Link$f :-$g http://github.com/android-rooted/Termux-New-Look"
+echo "$a This Tool Github Link$f :-$e http://github.com/android-rooted/Termux-New-Look"
 echo
 echo -e "\033[92m 		Termux-New-Look Changelog:-"
+echo
+echo -e "\033[93m Termux-New-Look version 2.2
+echo
+echo -e "\033[96m"
+echo " [~] Added shortcut command"
+echo " [~] Some bugs fixes"
 echo
 echo -e "\033[93mTermux-New-Look version 2.1"
 echo
