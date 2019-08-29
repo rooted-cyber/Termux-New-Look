@@ -68,7 +68,7 @@ echo -e "\e[1;96m===============================================\e[96m"
 echo -e "\e[1;96m	[ U ] Update Termux-New-Look		\e[0m"
 echo -e "\e[1;96m===============================================\e[0m"
 echo
-echo -n "Seĺect your option > "
+echo -n "\033[93mSelect your option > "
 read a
 echo -e "\e[1;93m"
 
