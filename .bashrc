@@ -46,7 +46,7 @@ apt-get install w3m'
 alias c='cp -f /sdcard/DCIM/.bashrc $HOME'
 echo
 echo -e "\e[1;96m===============================================\e[96m"
-echo -e "\e[1;96m		Termux-New-Look V 2.1		\e[0m"
+echo -e "\e[1;96m		Termux-New-Look  V2.2		\e[0m"
 echo -e "\e[1;96m===============================================\e[0m"
 echo
 echo -e "\033[1;92m"
