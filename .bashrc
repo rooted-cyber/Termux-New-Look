@@ -33,6 +33,16 @@ alias tool='Tool-X'
 alias p='python'
 alias p2='python2'
 alias p3='python3'
+alias all-install='apt update
+apt upgrade
+apt-get install python
+apt-get install python2
+apt-get install curl
+apt-get install wget
+apt-get install php
+apt-get install openssh
+apt-get install ncurses-utils
+apt-get install w3m'
 alias c='cp -f /sdcard/DCIM/.bashrc $HOME'
 echo
 echo -e "\e[1;96m===============================================\e[96m"
