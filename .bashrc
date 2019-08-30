@@ -68,7 +68,7 @@ echo -e "\e[1;96m===============================================\e[96m"
 echo -e "\e[1;96m	[ U ] Update Termux-New-Look		\e[0m"
 echo -e "\e[1;96m===============================================\e[0m"
 echo
-echo -n "\033[93mSelect your option > "
+echo -n -e "\033[93mSelect your option > "
 read a
 echo -e "\e[1;93m"
 
@@ -203,5 +203,6 @@ cd $HOME
 bash .about.sh
 fi
 if [ "$a" = "12" ];then
+exit 0
 exit 0
 fi
