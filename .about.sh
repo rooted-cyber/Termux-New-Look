@@ -41,7 +41,7 @@ echo "$a This Tool Github Link$f :-$e http://github.com/android-rooted/Termux-Ne
 echo
 echo -e "\033[92m 		Termux-New-Look Changelog:-"
 echo
-echo -e "\033[93m Termux-New-Look version 2.2
+echo -e "\033[93m Termux-New-Look version 2.2"
 echo
 echo -e "\033[96m"
 echo " [~] Added shortcut command"
@@ -69,7 +69,6 @@ echo " [~] Added Some shortcut command"
 echo " [~] Added Update Termux-New-Look"
 echo " [~] Added Uninstall Termux-New-Look"
 echo
-echo -e "\033[0m"
 toilet -f term -F gay =============================================
 echo "	$a Termux-New-Look $b About $c End"
 toilet -f term -F gay =============================================
