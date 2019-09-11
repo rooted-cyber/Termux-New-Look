@@ -125,7 +125,7 @@ rm -f .Installation.sh
 rm -f .Termux_os.sh
 rm -f .Open.sh
 rm -f .short.sh
-git clone https://github.com/android-rooted/Termux-New-Look
+git clone https://github.com/rooted-cyber/Termux-New-Look
 cd Termux-New-Look
 bash setup.sh
 sleep 2
