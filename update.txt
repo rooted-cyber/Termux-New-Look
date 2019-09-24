@@ -1,1 +1,1 @@
- [+] Checking version : V 2.3
+ [+] Available version : V 2.4
