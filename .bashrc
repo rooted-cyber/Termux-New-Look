@@ -8,7 +8,7 @@ mv update.txt .update.txt
 echo -e "\e[0m"
 cd $HOME
 clear
-cat ab
+bash ab
 echo -e "press enter"
 read
 clear
