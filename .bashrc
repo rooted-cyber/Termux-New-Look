@@ -1,11 +1,8 @@
 -command_not_found_handle() {
 	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
 }
-echo -e "\033[8m"
-wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/update.txt
-clear
-mv update.txt .update.txt
-echo -e "\e[0m"
+
+
 cd $HOME
 clear
 bash ab
@@ -56,6 +53,10 @@ apt-get install ncurses-utils
 apt-get install w3m'
 alias c='cp -f /sdcard/DCIM/.bashrc $HOME'
 echo
+wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/update.txt
+clear
+mv update.txt .update.txt
+echo -e "\e[0m"
 echo -e "\e[1;96m===============================================\e[96m"
 echo -e "\e[1;96m		Termux-New-Look  V2.4		\e[0m"
 echo -e "\e[1;96m===============================================\e[0m"
