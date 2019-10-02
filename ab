@@ -1,0 +1,58 @@
+
+echo -e "\033[92m 		Termux-New-Look Changelog:-"
+echo
+echo -e "\033[93m Termux-New-Look version 2.5"
+echo
+echo -e "\033[96m"
+echo -e " [+] Added some tools"
+echo -e " [+] Added new option in menu"
+echo -e " [+] Some bugs fixes"
+echo
+echo -e "\033[93m Termux-New-Look version 2.4"
+echo
+echo -e "\033[96m"
+echo -e " [+] Added New Shell"
+echo -e " [+] Added Checking version"
+echo
+echo -e "\033[93m Termux-New-Look version 2.3"
+echo
+echo -e "\033[96m"
+echo -e " [~] Termux New Look Ui changed"
+echo -e " [~] Termux-Os Ui changed"
+echo -e " [~] Added some tools in installation"
+echo -e " [~] Some things Removed"
+echo -e " [~] Some bugs fixed"
+echo
+echo -e "\033[93m Termux-New-Look version 2.2"
+echo
+echo -e "\033[96m"
+echo " [~] Added shortcut command"
+echo " [~] Some bugs fixes"
+echo
+echo -e "\033[93mTermux-New-Look version 2.1"
+echo
+echo -e "\033[96m"
+echo " [~] Change Design Termux-New-Look"
+echo " [~] Change color of Termux Boot Menu"
+echo " [~] Updated Installation Menu"
+echo " [~] Some bugs fixed"
+echo
+echo -e "\033[93m Termux-New-Look version 2.0"
+echo
+echo -e "\033[96m"
+echo " [~] Added Open Termux"
+echo " [~] Added Termux root"
+echo " [~] Added Pip Upgrade"
+echo " [~] Added Installation Menu"
+echo " [~] Added Open tools"
+echo " [~] Added Termux os"
+echo " [~] Added Termux Game"
+echo " [~] Added Some shortcut command"
+echo " [~] Added Update Termux-New-Look"
+echo " [~] Added Uninstall Termux-New-Look"
+echo
+toilet -f term -F gay =============================================
+echo "	$a Termux-New-Look $b About $c End"
+toilet -f term -F gay =============================================
+echo
+echo
