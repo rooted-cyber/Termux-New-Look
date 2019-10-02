@@ -65,7 +65,7 @@ echo -e "\033[1;92m"
 echo -e "\e[91m[ 1 ]\033[92m Open Termux	\e[91m[ 2 ]\e[93m Installation mennu"
 echo -e "\e[91m[ 3 ]\033[92m Termux Shortcut	\033[91m[ 4 ]\033[93m Pip Upgrade"
 echo -e "\e[91m[ 5 ]\033[92m Termux-Root	\033[91m[ 6 ]\033[93m Termux Os"
-echo -e "\e[91m[ 7 ]\033[92m Termux Game	\033[91m[ 8 ]\033[93m Termux-New-Look to Tool"
+echo -e "\e[91m[ 7 ]\033[92m Termux Game	\033[91m[ 8 ]\033[93m Convert into Tool"
 echo -e "\e[91m[ 9 ]\033[92m About	\033[91m[ 10 ]\033[93m Exit"
 echo -e "\033[1;96m"
 echo
