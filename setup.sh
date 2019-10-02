@@ -6,6 +6,9 @@ apt upgrade
 apt install wget
 apt-get install toilet
 apt-get install figlet
+pkg install ruby
+gem install lolcat
+apt remove zsh
 apt-get install ncurses-utils
 clear
 echo "Requirements installed"
