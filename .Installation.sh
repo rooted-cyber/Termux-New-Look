@@ -84,13 +84,19 @@ cd HiddenEye
 chmod 777 HiddenEye.py
 apt update
 apt upgrade
+apt remove python
 apt-get install python
 apt-get install python2
-pip install --upgrade pip
-pip2 install --upgrade pip
-pip2 install wget
+pip3 install wget
+clear
+clear
 clear
 echo "HiddenEye Installed"
+echo
+echo "Press enter to open HiddenEye"
+read
+cd $HOME/HiddenEye
+python3 HiddenEye.oy
 sleep 2
 cd $HOME
 bash .Installation.sh
