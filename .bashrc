@@ -24,7 +24,7 @@ alias msf='./me.sh'
 alias r='rm -Rf'
 alias a='ps'
 alias hiddeneye='cd $HOME/HiddenEye
-python3 HiddenEye.py'
+python HiddenEye.py'
 alias shell='cd $HOME/shellphish
 bash shellphish.sh'
 alias dark='DarkFly'
