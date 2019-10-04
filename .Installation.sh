@@ -96,7 +96,7 @@ echo
 echo "Press enter to open HiddenEye"
 read
 cd $HOME/HiddenEye
-python3 HiddenEye.oy
+python HiddenEye.py
 sleep 2
 cd $HOME
 bash .Installation.sh
