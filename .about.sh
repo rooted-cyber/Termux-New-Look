@@ -23,7 +23,7 @@ echo
 echo
 echo
 echo
-echo
+
 echo
 toilet -f term -F gay =============================================
 echo "$a Termux-New-Look $b Create $c by $d Maruf"
