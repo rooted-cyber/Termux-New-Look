@@ -7,6 +7,7 @@ apt install wget
 apt-get install toilet
 apt-get install figlet
 apt-get install ncurses-utils
+apt-get install termux-api
 clear
 echo "Requirements installed"
 sleep 2
@@ -22,21 +23,13 @@ rm -f .bashrc
 clear
 echo "please wait......"
 cd $HOME/Termux-New-Look
-cp -f .Installation.sh $HOME
 cp -f .bashrc $HOME
-cp -f .Termux_os.sh $HOME
-cp -f .Open.sh $HOME
-cp -f .short.sh $HOME
-cp -f .about.sh $HOME
 cp -f ab $HOME
+cp -f .*.sh $HOME
 cp -f tool $PREFIX/bin
 chmod 777 $PREFIX/bin/tool
-chmod 777 $HOME/.about.sh
-chmod 777 $HOME/.short.sh
-chmod 777 $HOME/.Installation.sh
-chmod 777 $HOME/.Termux_os.sh
+chmod 777 $HOME/.*.sh
 chmod 777 $HOME/.bashrc
-chmod 777 $HOME/.Open.sh
 cp -f .Game.sh $HOME
 chmod 777 $HOME/.Game.sh
 rm -Rf $HOME/Termux-New-Look

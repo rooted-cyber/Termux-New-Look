@@ -58,7 +58,7 @@ clear
 mv update.txt .update.txt
 echo -e "\e[0m"
 echo -e "\e[1;96m===============================================\e[96m"
-echo -e "\e[1;96m		Termux-New-Look  V2.6		\e[0m"
+echo -e "\e[1;96m		Termux-New-Look  V2.7		\e[0m"
 echo -e "\e[1;96m===============================================\e[0m"
 echo
 echo -e "\033[1;92m"
@@ -67,7 +67,7 @@ echo -e "\e[91m[ 3 ]\033[92m Termux Shortcut	\033[91m[ 4 ]\033[93m Pip Upgrade"
 echo -e "\e[91m[ 5 ]\033[92m Termux-Root	\033[91m[ 6 ]\033[93m Termux Os"
 echo -e "\e[91m[ 7 ]\033[92m Termux Game	\033[91m[ 8 ]\033[93m Convert into Tool"
 echo -e "\e[91m[ 9 ]\033[92m About	        \033[91m[ 10 ]\033[93m Termux Button"
-echo -e "\e[91m[ 11 ]\033[92m Exit"
+echo -e "\e[91m[ 11 ]\033[92m Termux Others	\033[91m[ 12 ]\033[93m Exit"
 echo
 toilet -F gay -f term ==============================================
 echo -e "\033[95m	[ T ] Termux New Look Uninstalled\033[0m"
@@ -221,5 +221,9 @@ echo -e "\033[92m Succssfully add button"
 echo "Restart Termux"
 fi
 if [ "$a" = "11" ];then
+cd $HOME
+bash .other.sh
+fi
+if [ "$a" = "12" ];then
 exit 1
 fi

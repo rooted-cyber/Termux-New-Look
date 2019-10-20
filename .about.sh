@@ -41,6 +41,14 @@ echo "$a This Tool Github Link$f :-$e http://github.com/rooted-cyber/Termux-New-
 echo
 echo -e "\033[92m 		Termux-New-Look Changelog:-"
 echo
+echo -e "\033[93m Termux-New-Look 2.7"
+echo
+echo -e "\033[96m"
+echo -e " [+] Many tools added in termux other"
+echo -e " [+] Added Termux other in Main menu"
+echo -e " [+] Some changes in shell"
+echo -e " [+] Some bugs fix"
+echo
 echo -e "\033[93m Termux-New-Look version 2.6"
 echo
 echo -e "\033[96m"
