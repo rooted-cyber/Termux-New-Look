@@ -77,7 +77,7 @@ echo -e "\e[1;96m===============================================\e[96m"
 echo -e "\e[1;96m	[ U ] Update Termux-New-Look$ver		\e[0m"
 echo -e "\e[1;96m===============================================\e[0m"
 echo -e "\e[92m"
-echo "Current version :- 2.7
+echo " [-] Current version : V2.7"
 cat .update.txt
 		rm -f .update*
 echo
