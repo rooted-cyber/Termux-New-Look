@@ -39,7 +39,7 @@ clear
 cd $HOME
 bash .hacked.sh
 fi
-if [ "$maruf" ="5" ];then
+if [ "$maruf" = "5" ];then
 cd $HOME
 bash .freeze.sh
 fi
