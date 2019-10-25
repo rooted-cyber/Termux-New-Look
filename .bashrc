@@ -217,7 +217,7 @@ fi
 if [ "$a" = "10" ];then
 termux-setup-storage
 mkdir $HOME/.termux
-echo "extra-keys = [['/','ls','rm','cp','UP','df',' '],['exit','CTRL','ENTER','LEFT','DOWN','RIGHT','.']]" >> $HOME/.termux/termux.properties
+echo "extra-keys = [['/','ls','rm','cp','UP','df','*'],['exit','CTRL','ENTER','LEFT','DOWN','RIGHT','.']]" >> $HOME/.termux/termux.properties
 clear
 echo -e "\033[92m Succssfully add button"
 echo "Restart Termux"
