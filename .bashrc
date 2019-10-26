@@ -3,11 +3,6 @@
 }
 
 
-cd $HOME
-clear
-bash ab
-echo -e "press enter"
-read
 clear
 alias c='clear'
 alias x='exit'
@@ -53,21 +48,22 @@ apt-get install ncurses-utils
 apt-get install w3m'
 alias c='cp -f /sdcard/DCIM/.bashrc $HOME'
 echo
-wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/update.txt
+#wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/update.txt
 clear
-mv update.txt .update.txt
+#mv update.txt .update.txt
 echo -e "\e[0m"
 echo -e "\e[1;96m===============================================\e[96m"
-echo -e "\e[1;96m 	[~] Termux-New-Look  V2.7		\e[0m"
+echo -e "\e[1;96m 	[~] Termux-New-Look  V2.8		\e[0m"
 echo -e "\e[1;96m===============================================\e[0m"
 echo
 echo -e "\033[1;92m"
-echo -e "\e[91m[ 1 ]\033[92m Open Termux	\e[91m[ 2 ]\e[93m Installation mennu"
+echo -e "\e[91m[ 1 ]\033[92m Open Termux	\e[91m[ 2 ]\e[93m Installation menu"
 echo -e "\e[91m[ 3 ]\033[92m Termux Shortcut	\033[91m[ 4 ]\033[93m Pip Upgrade"
 echo -e "\e[91m[ 5 ]\033[92m Termux-Root	\033[91m[ 6 ]\033[93m Termux Os"
 echo -e "\e[91m[ 7 ]\033[92m Termux Game	\033[91m[ 8 ]\033[93m Convert into Tool"
 echo -e "\e[91m[ 9 ]\033[92m About	        \033[91m[ 10 ]\033[93m Termux Button"
-echo -e "\e[91m[ 11 ]\033[92m Termux Others	\033[91m[ 12 ]\033[93m Exit"
+echo -e "\e[91m[ 11 ]\033[92m Termux Others	\033[91m[ 12 ]\033[93m Bomber"
+echo -e "\e[91m[ 13 ]\033[92m Checking Updates	\033[91m[ 14 ]\033[93m Exit"
 echo
 toilet -F gay -f term ==============================================
 echo -e "\033[95m	[ T ] Termux New Look Uninstalled\033[0m"
@@ -77,9 +73,7 @@ echo -e "\e[1;96m===============================================\e[96m"
 echo -e "\e[1;96m	[ U ] Update Termux-New-Look$ver		\e[0m"
 echo -e "\e[1;96m===============================================\e[0m"
 echo -e "\e[92m"
-echo " [-] Current version : V2.7"
-cat .update.txt
-		rm -f .update*
+echo " [-] Current version : V2.8"
 echo
 echo
 echo -n -e "\033[93mSelect your option > "
@@ -227,5 +221,10 @@ cd $HOME
 bash .other.sh
 fi
 if [ "$a" = "12" ];then
-exit 1
+cd $HOME
+bash .bomb.sh
+fi
+if [ "$a" = "13" ];then
+cd $HOME
+bash .check.sh
 fi
