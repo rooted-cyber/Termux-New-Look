@@ -5,7 +5,7 @@ echo
 clear
 echo -e "\033[92m"
 cat update.txt
-echo " [-] Current Version : V2.8"
+echo " [-] Current Version : V2.9"
 echo
 echo -e "\033[93m [ 1 ]\033[96m Update Termux-New-Look"
 echo -e "\033[93m [ 2 ]\033[96m Back"

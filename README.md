@@ -1,4 +1,4 @@
-# Termux-New-Look V2.8
+# Termux-New-Look V2.9
 # Installation
 <p>git clone http://github.com/rooted-cyber/Termux-New-Look</p>
 <p>cd Termux-New-Look</p>

@@ -12,13 +12,12 @@ apt-get install termux-api
 apt-get install openssh
 apt-get install curl
 apt-get install python
+apt install netcat
 pip install -r requirements.txt
 clear
 echo "Requirements installed"
 sleep 2
-toilet -f metal -f mono12 -F gay Termux
-toilet -f mono12 -f metal -F gay New
-toilet -f metal -f mono12 -F gay Look
+figlet Install | toilet -f term -F gay
 echo
 echo -e "\033[1;96m"
 echo "Termux-New-Look setup ho rha hai ......."

@@ -53,7 +53,7 @@ clear
 #mv update.txt .update.txt
 echo -e "\e[0m"
 echo -e "\e[1;96m===============================================\e[96m"
-echo -e "\e[1;96m 	[~] Termux-New-Look  V2.8		\e[0m"
+echo -e "\e[1;96m 	[~] Termux-New-Look  V2.9		\e[0m"
 echo -e "\e[1;96m===============================================\e[0m"
 echo
 echo -e "\033[1;92m"
@@ -73,7 +73,7 @@ echo -e "\e[1;96m===============================================\e[96m"
 echo -e "\e[1;96m	[ U ] Update Termux-New-Look$ver		\e[0m"
 echo -e "\e[1;96m===============================================\e[0m"
 echo -e "\e[92m"
-echo " [-] Current version : V2.8"
+echo " [-] Current version : V2.9"
 echo
 echo
 echo -n -e "\033[93mSelect your option > "
@@ -210,12 +210,8 @@ cd $HOME
 bash .about.sh
 fi
 if [ "$a" = "10" ];then
-termux-setup-storage
-mkdir $HOME/.termux
-echo "extra-keys = [['/','ls','rm','cp','UP','df','*'],['exit','CTRL','ENTER','LEFT','DOWN','RIGHT','.']]" >> $HOME/.termux/termux.properties
-clear
-echo -e "\033[92m Succssfully add button"
-echo "Restart Termux"
+cd $HOME
+bash .button.sh
 fi
 if [ "$a" = "11" ];then
 cd $HOME
