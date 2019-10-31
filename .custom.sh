@@ -28,6 +28,7 @@ echo
 termux-setup-storage
 rm -f $HOME/.termux/termux.properties
 mkdir $HOME/.termux
-echo "extra-keys = [['/','CTRL','ENTER','*','.','LEFT','RIGHT'],['$a','$b','$c','$d','$e','UP',$f']]" >> $HOME/.termux/termux.properties
-echo -e " $a $b $c $d $e $f /n All button added successfull"
+echo "extra-keys = [['/','CTRL','ENTER','*','.','LEFT','RIGHT'],['$a','$b','$c','$d','$e','UP','$f']]" >> $HOME/.termux/termux.properties
+echo -e " $a $b $c $d $e $f "
+echo "All button added successfull"
 fi
