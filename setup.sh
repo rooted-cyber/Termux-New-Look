@@ -42,6 +42,8 @@ chmod 777 $HOME/.Game.sh
 rm -Rf $HOME/Termux-New-Look
 rm -f $PREFIX/etc/motd
 sleep 3
+cd $HOME
+rm update*
 echo "Successfully Changed Termux"
 echo
 echo "Restart Termux"
