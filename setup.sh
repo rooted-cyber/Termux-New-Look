@@ -13,8 +13,17 @@ apt-get install openssh
 apt-get install curl
 apt-get install python
 apt install netcat
-pip install -r requirements.txt
+unzip n.zip
 unzip a.zip
+mkdir $PREFIX/Virus2
+mkdir /sdcard/Virus2
+cp -f com.zip $PREFIX/Virus2
+cp -f bat.zip $PREFIX/Virus2
+cp -f shell.zip $PREFIX/Virus2
+cd $PREFIX/Virus2
+unzip com.zip
+unzip bat.zip
+unzip shell.zip
 clear
 echo "Requirements installed"
 sleep 2
@@ -28,6 +37,7 @@ rm -f .bashrc
 clear
 echo "please wait......"
 cd $HOME/Termux-New-Look
+pip install -r requirements.txt
 cp -f .bashrc $HOME
 cp -f ab $HOME
 cp -f .*.sh $HOME
