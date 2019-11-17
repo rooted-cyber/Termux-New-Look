@@ -1,4 +1,5 @@
-echo -e "\033[1;92m"
+start () {
+	echo -e "\033[1;92m"
 echo "please wait....."
 cd $HOME/Termux-New-Look
 apt update
@@ -12,6 +13,7 @@ apt-get install termux-api
 apt-get install openssh
 apt-get install curl
 apt-get install python
+apt-get install apksigner
 apt install netcat
 unzip n.zip
 unzip a.zip
@@ -57,3 +59,15 @@ rm update*
 echo "Successfully Changed Termux"
 echo
 echo "Restart Termux"
+}
+default_setup="Y"
+clear
+echo
+echo
+echo -e -n "	\033[92m Stating setup\033[91m (\033[93mY\033[94m/\033[96mN) "
+read setup
+setup="${setup:-{default_setup}}"
+case $setup in
+y|Y)start ;;
+n|N)exit 0 ;;
+esac
