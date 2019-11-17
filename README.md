@@ -1,10 +1,11 @@
 # Termux-New-Look V3.1
 # Installation in termux
- $ apt update
+ <pre>$ apt update
  $ apt upgrade
  $ apt install git
  $ git clone http://github.com/rooted-cyber/Termux-New-Look</p>
  $ cd Termux-New-Look
- $ bash setup.sh
+ $ bash setup.sh</pre>
 
 # Thank you for using this
+# And many feature added
