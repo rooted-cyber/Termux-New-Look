@@ -60,13 +60,13 @@ echo "Successfully Changed Termux"
 echo
 echo "Restart Termux"
 }
-default_setup="Y"
+#default_setup="Y"
 clear
 echo
 echo
 echo -e -n "	\033[92m Stating setup\033[91m (\033[93mY\033[94m/\033[96mN) "
 read setup
-setup="${setup:-{default_setup}}"
+#setup="${setup:-{default_setup}}"
 case $setup in
 y|Y)start ;;
 n|N)exit 0 ;;
