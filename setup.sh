@@ -55,7 +55,7 @@ rm -Rf $HOME/Termux-New-Look
 rm -f $PREFIX/etc/motd
 sleep 3
 cd $HOME
-rm update*
+rm update* > /dev/null 2>&1
 echo "Successfully Changed Termux"
 echo
 echo "Restart Termux"
