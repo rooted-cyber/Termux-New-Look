@@ -36,6 +36,8 @@ bash setup.sh
 fi
 if [ "$u" = "2" ];then
 cd $HOME
+rm -f .changelog.sh
+wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/.changelog.sh > /dev/null 2>&1
 bash .changelog.sh
 rm -f .changelog.sh
 fi
@@ -201,7 +203,7 @@ echo
 echo "Press enter to open HiddenEye"
 read
 cd $HOME/HiddenEye
-python HiddenEye.py
+python3 HiddenEye.py
 sleep 2
 cd $HOME
 bash .Installation.sh
@@ -212,7 +214,7 @@ git clone https://github.com/thelinuxchoice/shellphish
 cd Shellphish
 chmod 777 *
 clear
-echo "Shellfish Installed"
+echo "Shellphish Installed"
 sleep 2
 cd $HOME
 bash .Installation.sh
@@ -379,6 +381,12 @@ cd $HOME
 bash .bashr*
 fi
 }
+	
+messanger () {
+	cd $HOME
+	bash .m.sh
+}
+	
 	
 	
 
@@ -635,7 +643,7 @@ printf "\e[93m	Successfully convert tool\n"
 printf "\e[93m Now you can use this command :- tool\n"
 fi
 if [ "$a" = "5" ];then
-Smessage2
+messanger
 fi
 if [ "$a" = "6" ];then
 buttom
