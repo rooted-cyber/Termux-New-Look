@@ -602,7 +602,7 @@ if [ "$a" = "3" ];then
 common
 fi
 if [ "$a" = "U" ] || [ "$a" = "u" ];then
-printf "\033[1;95m	[-] Updating......"
+printf "\033[1;95m	[-] Updating......\n"
 cd $HOME
 rm -f .bashrc
 rm -f .Installation.sh
