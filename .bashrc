@@ -529,7 +529,7 @@ clear
 #mv update.txt .update.txt
 printf "\e[0m"
 printf "\e[1;96m\n===============================================\n\e[96m"
-printf "\e[1;96m 	[~] Termux-New-Look  V3.1		\e[0m\n"
+printf "\e[1;96m 	[~] Termux-New-Look  V3.3		\e[0m\n"
 printf "\e[1;96m===============================================\n\e[0m"
 echo
 printf "\033[1;92m"
