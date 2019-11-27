@@ -45,114 +45,15 @@ echo
 echo "$a This Tool Github Link$f :-$e http://github.com/rooted-cyber/Termux-New-Look"
 echo
 echo -e "\033[92m 		Termux-New-Look Changelog:-"
-printf "\033[93m Termux-New-Look 3.3\n"
+printf "\033[93m Termux-New-Look 3.4\n"
 echo
 echo -e "\033[96m"
-printf " [+] Update virus making\n"
-printf " [+] Added two new games\n"
-printf " [+] Added messanger\n"
+printf " [+] Update messanger\n"
+printf " [+] Fix ngrok install\n"
+printf " [+] Added new shell\n"
 printf " [+] Some problem fix\n"
 echo
-printf "\033[93m Termux-New-Look 3.2\n"
-echo
-echo -e "\033[96m"
-printf " [+] Added Termux-Calcutor\n"
-printf " [+] Added Install-Ngrok\n"
-printf " [+] Added Termux-Apktool\n"
-printf " [+] Some bugs fix\n"
-echo
-echo -e "\033[93m Termux-New-Look 3.1"
-echo
-echo -e "\033[96m"
-echo -e " [+] Added new option in home"
-eCho -e " [+] Added something in Termux-Common"
-echo -e " [+] Bomber fixed"
-echo -e " [+] Some problem fix"
-echo
-echo -e "\033[93m Termux-New-Look v3.0"
-echo
-echo -e "\033[96m"
-echo -e " [-] Added New Option In Home"
-echo -e " [-] Now you can set your name shell"
-echo -e " [-] Some features move"
-echo -e " [-] Some bugs fixes"
-echo
-echo -e "\033[93m Termux-New-Look 2.9"
-echo
-echo -e "\033[96m"
-echo -e " [+] Added custom button"
-echo -e " [+] Some bugs fix"
-echo
-echo -e "\033[93m Termux-New-Look 2.8"
-echo
-echo -e "\033[96m"
-echo -e " [~] Added two new option menu"
-echo -e " [~] Many bugs fixes"
-echo
-echo -e "\033[93m Termux-New-Look 2.7"
-echo
-echo -e "\033[96m"
-echo -e " [+] Many tools added in termux other"
-echo -e " [+] Added Termux other in Main menu"
-echo -e " [+] Some changes in shell"
-echo -e " [+] Some bugs fix"
-echo
-echo -e "\033[93m Termux-New-Look version 2.6"
-echo
-echo -e "\033[96m"
-echo -e " [+] Added Extra button"
-echo -e " [+] some bugs fix"
-echo
-echo -e "\033[93m Termux-New-Look version 2.5"
-echo
-echo -e "\033[96m"
-echo -e " [+] Added some tools"
-echo -e " [+] Added new option in menu"
-echo -e " [+] Some bugs fixes"
-echo
-echo -e "\033[93m Termux-New-Look version 2.4"
-echo
-echo -e "\033[96m"
-echo -e " [+] Added New Shell"
-echo -e " [+] Added Checking version"
-echo
-echo -e "\033[93m Termux-New-Look version 2.3"
-echo
-echo -e "\033[96m"
-echo -e " [~] Termux New Look Ui changed"
-echo -e " [~] Termux-Os Ui changed"
-echo -e " [~] Added some tools in installation"
-echo -e " [~] Some things Removed"
-echo -e " [~] Some bugs fixed"
-echo
-echo -e "\033[93m Termux-New-Look version 2.2"
-echo
-echo -e "\033[96m"
-echo " [~] Added shortcut command"
-echo " [~] Some bugs fixes"
-echo
-echo -e "\033[93mTermux-New-Look version 2.1"
-echo
-echo -e "\033[96m"
-echo " [~] Change Design Termux-New-Look"
-echo " [~] Change color of Termux Boot Menu"
-echo " [~] Updated Installation Menu"
-echo " [~] Some bugs fixed"
-echo
-echo -e "\033[93m Termux-New-Look version 2.0"
-echo
-echo -e "\033[96m"
-echo " [~] Added Open Termux"
-echo " [~] Added Termux root"
-echo " [~] Added Pip Upgrade"
-echo " [~] Added Installation Menu"
-echo " [~] Added Open tools"
-echo " [~] Added Termux os"
-echo " [~] Added Termux Game"
-echo " [~] Added Some shortcut command"
-echo " [~] Added Update Termux-New-Look"
-echo " [~] Added Uninstall Termux-New-Look"
-echo
+
 toilet -f term -F gay =============================================
 echo "	$a Termux-New-Look $b About $c End"
 toilet -f term -F gay =============================================
