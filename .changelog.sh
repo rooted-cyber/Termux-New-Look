@@ -45,11 +45,10 @@ echo
 echo "$a This Tool Github Link$f :-$e http://github.com/rooted-cyber/Termux-New-Look"
 echo
 echo -e "\033[92m 		Termux-New-Look Changelog:-"
-printf "\033[93m Termux-New-Look 3.4\n"
+printf "\033[93m Termux-New-Look 3.5\n"
 echo
 echo -e "\033[96m"
-printf " [+] Update messanger\n"
-printf " [+] Fix ngrok install\n"
+printf " [+] Fix Termux-Apktool\n"
 printf " [+] Added new shell\n"
 printf " [+] Some problem fix\n"
 echo

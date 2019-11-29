@@ -86,7 +86,7 @@ cd $HOME
 rm -f .bashrc
 echo "Waiting......"
 cd $HOME/Termux-New-Look
-pip install -r requirements.txt
+pip install -r requirements.txt > /dev/null 2>&1
 cp -f .bashrc $HOME
 cp -f ab $HOME
 cp -f .*.sh $HOME
