@@ -61,31 +61,31 @@ echo -e "	\033[91m{ 6 }\033[92m Back"
 echo -e "	\033[91m{ 7 }\033[92m Exit"
 echo
 echo -e -n "\033[96m Select >> "
-read a
+read ab
 echo -e "\033[91m Invalid Input !!"
-if [ "$a" = "1" ];then
+if [ "$ab" = "1" ];then
 cd $HOME
 bash .Termux_os.sh
 fi
-if [ "$a" = "2" ];then
+if [ "$ab" = "2" ];then
 clear
 apt update
 apt upgrade
 pip install --upgrade pip
 pip2 install --upgrade pip
 fi
-if [ "$a" = "3" ];then
+if [ "$ab" = "3" ];then
 clear
 apt remove python
 apt install python
 clear
 echo -e "\033[92m success"
 fi
-if [ "$a" = "4" ];then
+if [ "$ab" = "4" ];then
 cd $HOME
 bash .Game.sh
 fi
-if [ "$a" = "5" ];then
+if [ "$ab" = "5" ];then
 cd $HOME
 chmod -Rf 700 *
 chmod -Rf 700 .*
@@ -95,7 +95,7 @@ echo -e "\033[93m Checking........"
 sleep 2
 ls -a
 fi
-if [ "$a" = "6" ];then
+if [ "$ab" = "6" ];then
 cd $HOME
 bash .bashr*
 fi
@@ -155,7 +155,7 @@ apt-get install openssh
 apt-get install w3m
 apt-get install proot
 apt-get install mpv
-apt-get install teemux-api
+apt-get install termux-api
 clear
 echo "Installed Basic Command"
 sleep 2
