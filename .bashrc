@@ -203,6 +203,7 @@ echo
 echo "Press enter to open HiddenEye"
 read
 cd $HOME/HiddenEye
+pip install -r requiremen*
 python3 HiddenEye.py
 sleep 2
 cd $HOME
@@ -409,7 +410,9 @@ read a
 if [ "$a" = "1" ];then
 termux-setup-storage
 mkdir $HOME/.termux
-echo "extra-keys = [['/','ls','$','~','UP','cd','*'],['exit','CTRL','ENTER','LEFT','DOWN','RIGHT','.']]" >> $HOME/.termux/termux.properties
+echo "extra-keys = [['/','ls','$','~','UP','cd','*'],['ex','CTRL','ENTER','LEFT','DOWN','RIGHT','.']]" >> $HOME/.termux/termux.properties
+echo "#!/data/data/com.termux/files/usr/bin/sh" >> /data/data/com.termux/files/usr/bin/ex
+echo "killall -9 com.termux" >> /data/data/com.termux/files/usr/bin/ex
 clear
 echo -e "\033[92m Succssfully add button"
 echo "Restart Termux"
