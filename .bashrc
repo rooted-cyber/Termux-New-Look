@@ -413,6 +413,7 @@ mkdir $HOME/.termux
 echo "extra-keys = [['/','ls','$','~','UP','cd','*'],['ex','CTRL','ENTER','LEFT','DOWN','RIGHT','.']]" >> $HOME/.termux/termux.properties
 echo "#!/data/data/com.termux/files/usr/bin/sh" >> /data/data/com.termux/files/usr/bin/ex
 echo "killall -9 com.termux" >> /data/data/com.termux/files/usr/bin/ex
+chmod 777 $PREFIX/bin/ex
 clear
 echo -e "\033[92m Succssfully add button"
 echo "Restart Termux"
