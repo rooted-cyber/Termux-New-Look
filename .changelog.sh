@@ -3,9 +3,9 @@
 	
 	
 	
-	clear
-clear
-clear
+	
+
+
 a="$(tput setaf 10)"
 b="$(tput setaf 11)"
 c="$(tput setaf 77)"
