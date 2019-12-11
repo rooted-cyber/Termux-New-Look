@@ -1,11 +1,4 @@
 
-	
-	
-	
-	
-	
-
-
 a="$(tput setaf 10)"
 b="$(tput setaf 11)"
 c="$(tput setaf 77)"
@@ -21,15 +14,6 @@ l="$(tput setaf 40)"
 m="$(tput setaf 42)"
 n="$(tput setaf 45)"
 o="$(tput setaf 46)"
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
 toilet -f term -F gay =============================================
 echo "$a Termux-New-Look $b Create $c by $d Maruf"
 toilet -f term -F gay =============================================
@@ -42,14 +26,14 @@ echo "$a Termux-New-Look Last Updated$b  28 August 2019"
 echo 
 echo "$a My github link$d :-$e http://github.com/rooted-cyber"
 echo
-echo "$a This Tool Github Link$f :-$e http://github.com/rooted-cyber/Termux-New-Look"
-echo
+printf "$a This Tool Github Link$f \n\n$e http://github.com/rooted-cyber/Termux-New-Look\n\n"
 echo -e "\033[92m 		Termux-New-Look Changelog:-"
-printf "\033[93m Termux-New-Look 3.5\n"
-echo
+printf "\033[93m\n Termux-New-Look 3.5\n"
 echo -e "\033[96m"
-printf " [+] Fix Termux-Apktool\n"
-printf " [+] Added new shell\n"
+printf " [+] Fix Termux-Game\n"
+printf " [+] Added Open-Tools\n"
+printf " [+] Remove Bomber\n"
+printf " [+] Added auto update option\n"
 printf " [+] Some problem fix\n"
 echo
 
