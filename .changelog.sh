@@ -28,12 +28,8 @@ echo "$a My github link$d :-$e http://github.com/rooted-cyber"
 echo
 printf "$a This Tool Github Link$f \n\n$e http://github.com/rooted-cyber/Termux-New-Look\n\n"
 echo -e "\033[92m 		Termux-New-Look Changelog:-"
-printf "\033[93m\n Termux-New-Look 3.6\n"
+printf "\033[93m\n Termux-New-Look 3.7\n"
 echo -e "\033[96m"
-printf " [+] Fix Termux-Game\n"
-printf " [+] Added Open-Tools\n"
-printf " [+] Remove Bomber\n"
-printf " [+] Added auto update option\n"
 printf " [+] Some problem fix\n"
 echo
 

@@ -27,8 +27,8 @@ hara="\033[92m"
 ajib="\033[96m"
 printf "\n	\033[91m Your Termux-New-Look is old version.\n"
 printf "$lal  	Update it !!\n"
-printf "$hara [+] Your current version 3.6\n"
-printf "$hara [+] Available version 3.7\n\n"
+printf "$hara [+] Your current version 3.7\n"
+printf "$hara [+] Available version 3.8\n\n"
 printf "$ajib Termux-New-Look latest changelog\n\n"
 wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/.changelog.sh > /dev/null 2>&1
 bash .changelog.sh
@@ -606,7 +606,7 @@ sayhello_in () {
 
 
 
-
+sf () {
 likho="echo -e"
 likhov="echo -e -n"
 likh="printf"
@@ -652,6 +652,7 @@ $kuch
 $saf
 $likho "$hara Now you can use this command :- open"
 fi
+}
 ngrok () {
 cd $PREFIX/bin
 if [ -e ngrok ];then
@@ -738,9 +739,9 @@ wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/updat
 echo
 clear
 echo -e "\033[92m"
-cat update_3.6
-rm -f update_3.6
-echo " [-] Current Version : V3.6"
+cat update_3.7
+rm -f update_3.7
+echo " [-] Current Version : V3.7"
 echo
 echo -e "\033[93m [ 1 ]\033[96m Update Termux-New-Look"
 echo -e "\033[93m [ 2 ]\033[96m Check Changelog for update"
@@ -1285,11 +1286,11 @@ printf "\e[1;96m\n===============================================\e[96m"
 printf "\e[1;96m\n	[ U ] Update Termux-New-Look$ver		\e[0m"
 printf "\e[1;96m\n===============================================\e[0m"
 printf "\e[92m\n\n"
-echo " [-] Current version : V3.6"
+echo " [-] Current version : V3.7"
 
 wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/update_3.6 > /dev/null 2>&1
-if [ -e update_3.6 ];then
-rm -f update_3.6
+if [ -e update_3.7 ];then
+rm -f update_3.7
 echo " [+] This tool is latest version"
 else
 auto_update
