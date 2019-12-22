@@ -1288,7 +1288,7 @@ printf "\e[1;96m\n===============================================\e[0m"
 printf "\e[92m\n\n"
 echo " [-] Current version : V3.7"
 
-wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/update_3.6 > /dev/null 2>&1
+wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/update_3.7 > /dev/null 2>&1
 if [ -e update_3.7 ];then
 rm -f update_3.7
 echo " [+] This tool is latest version"
