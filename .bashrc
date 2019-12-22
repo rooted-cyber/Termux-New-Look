@@ -38,7 +38,7 @@ echo -e -n "$ajib Do you want to update it ?$lal ($hara Y/N$lal ) "
 read te
 case $te in
 y|Y)update_Termux-New-Look ;;
-n|N)bash .bashr* ;;
+n|N)exit 0 ;;
 *)auto_update ;;
 esac
 }
