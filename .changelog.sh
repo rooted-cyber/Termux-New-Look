@@ -30,7 +30,7 @@ printf "$a This Tool Github Link$f \n\n$e http://github.com/rooted-cyber/Termux-
 echo -e "\033[92m 		Termux-New-Look Changelog:-"
 printf "\033[93m\n Termux-New-Look 3.8\n"
 echo -e "\033[96m"
-printf " [+] dded TBaic-Test\n"
+printf " [+] Added TBaic-Test\n"
 printf " [+] Some problem fix\n"
 echo
 
