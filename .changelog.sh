@@ -22,14 +22,15 @@ echo
 echo "$a Many Feature Available Termux-New-Look"
 echo "$a Termux-New-Look specially for new Termux user"
 echo
-echo "$a Termux-New-Look Last Updated$b  28 August 2019"
+echo "$a Termux-New-Look Last Updated$b  22 December 2019"
 echo 
 echo "$a My github link$d :-$e http://github.com/rooted-cyber"
 echo
 printf "$a This Tool Github Link$f \n\n$e http://github.com/rooted-cyber/Termux-New-Look\n\n"
 echo -e "\033[92m 		Termux-New-Look Changelog:-"
-printf "\033[93m\n Termux-New-Look 3.7\n"
+printf "\033[93m\n Termux-New-Look 3.8\n"
 echo -e "\033[96m"
+printf " [+] dded TBaic-Test\n"
 printf " [+] Some problem fix\n"
 echo
 

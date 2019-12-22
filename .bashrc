@@ -27,8 +27,8 @@ hara="\033[92m"
 ajib="\033[96m"
 printf "\n	\033[91m Your Termux-New-Look is old version.\n"
 printf "$lal  	Update it !!\n"
-printf "$hara [+] Your current version 3.7\n"
-printf "$hara [+] Available version 3.8\n\n"
+printf "$hara [+] Your current version 3.8\n"
+printf "$hara [+] Available version 3.9\n\n"
 printf "$ajib Termux-New-Look latest changelog\n\n"
 wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/.changelog.sh > /dev/null 2>&1
 bash .changelog.sh
@@ -682,6 +682,11 @@ fi
 }
 clear
 Open-tools () {
+	image="figlet"
+	rang="toilet -f term -F gay"
+	likh="printf"
+	hara="\033[92m"
+	lal="\033[91m"
 	
 cd ~
 $image Tools | $rang
@@ -739,9 +744,9 @@ wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/updat
 echo
 clear
 echo -e "\033[92m"
-cat update_3.7
-rm -f update_3.7
-echo " [-] Current Version : V3.7"
+cat update_3.8
+rm -f update_3.8
+echo " [-] Current Version : V3.8"
 echo
 echo -e "\033[93m [ 1 ]\033[96m Update Termux-New-Look"
 echo -e "\033[93m [ 2 ]\033[96m Check Changelog for update"
@@ -1274,7 +1279,7 @@ printf "\e[91m[ 1 ]\033[92m Open Termux	\e[91m[ 2 ]\e[93m Tools\n"
 printf "\e[91m[ 3 ]\033[92m Termux-Common	\033[91m[ 4 ]\033[93m Convert into tool\n"
 printf "\e[91m[ 5 ]\033[92m Messanger		\033[91m[ 6 ]\033[93m Termux-Button\n"
 printf "\e[91m[ 7 ]\033[92m Termux Others	\033[91m[ 8 ]\033[93m Open-Tools\n"
-printf "\e[91m[ 9 ]\033[92m Checking Updates	\033[91m[ 10 ]\033[93m Virus-Making\n"
+printf "\e[91m[ 9 ]\033[92m TBasic-Test	\033[91m[ 10 ]\033[93m Virus-Making\n"
 printf "\e[91m[ 11 ]\033[92m Termux-Calculator\033[91m[ 12 ]\033[93m Termux-Apktool\n"
 printf "\e[91m[ 13 ]\033[92m Install-Ngrok	\033[91m[ 14 ]\033[93m Exit\n\n"
 echo
@@ -1286,23 +1291,25 @@ printf "\e[1;96m\n===============================================\e[96m"
 printf "\e[1;96m\n	[ U ] Update Termux-New-Look$ver		\e[0m"
 printf "\e[1;96m\n===============================================\e[0m"
 printf "\e[92m\n\n"
-echo " [-] Current version : V3.7"
+echo " [-] Current version : V3.8"
 
-wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/update_3.7 > /dev/null 2>&1
-if [ -e update_3.7 ];then
-rm -f update_3.7
+wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/update_3.8 > /dev/null 2>&1
+if [ -e update_3.8 ];then
+rm -f update_3.8
+echo
 echo " [+] This tool is latest version"
 else
 auto_update
 fi
 echo
 echo
-printf "\033[92m Enter Your Name For Start\n\n"
+printf "\033[96m Enter Your Name For Start\n\n"
 echo
-echo -n -e "\033[93mSelect your option > "
+echo -n -e "\033[91mSelect your option > "
 read a
 printf "\e[1;93m"
 #figlet $a | toilet -f term -F gay
+echo
 echo "$(date +"%c" | toilet -F border -F gay -f term)"
 echo
 #PS1="\n\n\[\033[91m\]\u\[\033[92m\]@\[\033[93m\]$a \[\033[94m\][\[\033[95m\]\W\[\033[94m\]] \[\033[91m\][\[\033[96m\] $a\[\033[91m\] ]\[\033[92m\] # \[\033[97m\]"
@@ -1404,7 +1411,8 @@ if [ "$a" = "8" ];then
 Open-tools
 fi
 if [ "$a" = "9" ];then
-check
+cd ~
+bash .TB.sh
 fi
 if [ "$a" = "10" ];then
 cd $PREFIX/Virus2
