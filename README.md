@@ -1,4 +1,4 @@
-# Termux-New-Look V3.8
+# Termux-New-Look V3.9
 # Installation in termux
  <pre> $ apt update
  $ apt upgrade

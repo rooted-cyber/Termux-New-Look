@@ -88,9 +88,8 @@ echo "Waiting......"
 cd $HOME/Termux-New-Look
 pip install -r requirements.txt > /dev/null 2>&1
 cp -f .bashrc $HOME
-cp -f ab $HOME
 cp -f .*.sh $HOME
-cp -f .*.py $HOME
+cp -f .*.py $HOME > /dev/null 2>&1
 cp -f tool $PREFIX/bin
 chmod 777 $PREFIX/bin/tool
 chmod 777 $HOME/.*.sh

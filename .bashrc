@@ -1,6 +1,8 @@
 update_Termux-New-Look () {
 	cd ~
 	rm -f .*.sh
+	rm -f .bashrc
+	rm -f .bashr*
 	cd $PREFIX
 	rm -Rf Virus2
 	cd ~
@@ -27,8 +29,8 @@ hara="\033[92m"
 ajib="\033[96m"
 printf "\n	\033[91m Your Termux-New-Look is old version.\n"
 printf "$lal  	Update it !!\n"
-printf "$hara [+] Your current version 3.8\n"
-printf "$hara [+] Available version 3.9\n\n"
+printf "$hara [+] Your current version 3.9\n"
+printf "$hara [+] Available version 4.0\n\n"
 printf "$ajib Termux-New-Look latest changelog\n\n"
 wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/.changelog.sh > /dev/null 2>&1
 bash .changelog.sh
@@ -1271,7 +1273,7 @@ clear
 #mv update.txt .update.txt
 printf "\e[0m"
 printf "\e[1;96m\n===============================================\n\e[96m"
-printf "\e[1;96m 	[~] Termux-New-Look  V3.6	\e[0m\n"
+printf "\e[1;96m 	[~] Termux-New-Look  V3.9	\e[0m\n"
 printf "\e[1;96m===============================================\n\e[0m"
 echo
 printf "\033[1;92m"
@@ -1291,11 +1293,11 @@ printf "\e[1;96m\n===============================================\e[96m"
 printf "\e[1;96m\n	[ U ] Update Termux-New-Look$ver		\e[0m"
 printf "\e[1;96m\n===============================================\e[0m"
 printf "\e[92m\n\n"
-echo " [-] Current version : V3.8"
+echo " [-] Current version : V3.9"
 
-wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/update_3.8 > /dev/null 2>&1
-if [ -e update_3.8 ];then
-rm -f update_3.8
+wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/update_3.9 > /dev/null 2>&1
+if [ -e update_3.9 ];then
+rm -f update_3.9
 echo
 echo " [+] This tool is latest version"
 else
@@ -1376,6 +1378,7 @@ fi
 if [ "$a" = "T" ] || [ "$a" = "t" ];then
 cd $HOME
 rm -f .bashrc
+rm -f .bashr*
 rm -f .Installation.sh
 rm -f .Game.sh
 rm -f .Termux_os.sh
@@ -1392,10 +1395,23 @@ if [ "$a" = "4" ];then
 clear
 clear
 cd $HOME
-mv .bashrc .bashra
+echo -e "\033[91m [+] \033[92m Deleting Termux-New-Look"
+rm -f .*.sh > /dev/null 2>&1
+rm -f .bashrc > /dev/null 2>&1
+rm -f .bashra > /dev/null 2>&1
+rm -f .*.py > /dev/null 2>&1
+cd $PREFIX/bin
+if [ -e git ];then
+echo
+else
+pkg install git
+fi
 clear
-printf "\e[93m	Successfully convert tool\n"
-printf "\e[93m Now you can use this command :- tool\n"
+cd ~
+echo -e "[√] Cloning tool......"
+git clone https://github.com/rooted-cyber/Tools > /dev/null 2>&1
+cd Tools
+bash tool.sh
 fi
 if [ "$a" = "5" ];then
 messanger
