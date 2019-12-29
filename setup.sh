@@ -55,7 +55,7 @@ echo -e "\033[91m [√] Successfull all packages installed"
 sleep 0.20
 rm -f .changelog.sh
 echo -e "\033[92m [+] unzip n.zip....."
-sllep 0.50
+sleep 0.50
 unzip n.zip
 echo -e "\033[93m [+] unzip a.zip......"
 sleep 0.50
