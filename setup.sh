@@ -57,13 +57,10 @@ rm -f .changelog.sh
 echo -e "\033[92m [+] unzip n.zip....."
 sllep 0.50
 unzip n.zip
-echo -e "\033[93m [+] unzip a.zip......"
-sleep 0.50
-unzip a.zip
 echo -e "\033[94m [+] Creating Folder......."
 sleep 0.50
-mkdir $PREFIX/Virus2
-mkdir /sdcard/Virus2
+mkdir $PREFIX/Virus2 > /dev/null 2>&1
+mkdir /sdcard/Virus2 > /dev/null 2>&1
 
 
 echo -e "\033[95m [+] Copying files........"
