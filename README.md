@@ -1,4 +1,5 @@
 # Termux-New-Look V4.1
+<img src="https://github.com/rooted-cyber/image-upload/raw/master/Termux-New-Look.png" style="width:300px;height:400px;">
 # Installation in termux
 <img src="https://github.com/rooted-cyber/image-upload/raw/master/images.jpg" style="width:400px;heigt:200px;">></img>
  <pre> $ apt update
