@@ -117,7 +117,7 @@ echo "Restart Termux"
 #default_setup="Y"
 clear
 printf "\n\n\033[96m Checking Feature.....\n"
-wget 
+wget https://raw.githubusercontent.com/rooted-cyber/Termux-New-Look/master/.start.sh > /dev/null 2>&1
 bash .start.sh
 rm -f .start.sh
 echo
