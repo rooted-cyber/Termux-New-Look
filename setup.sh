@@ -1,4 +1,15 @@
-start () {
+setup () {
+	cd ~
+	if [ -e Termux-New-Look ];then
+	echo
+	else
+	git clone https://github.com/rooted-cyber/Termux-New-Look
+	cd Termux-New-Look
+	bash setup.sh
+	fi
+	}
+	start () {
+		setup
 	echo -e "\033[1;92m"
 echo "please wait....."
 cd $HOME/Termux-New-Look
