@@ -62,7 +62,10 @@ sleep 0.50
 mkdir $PREFIX/Virus2 > /dev/null 2>&1
 mkdir /sdcard/Virus2 > /dev/null 2>&1
 
-
+mkdir -p $PREFIX/var/lib/postgresql
+initdb $PREFIX/var/lib/postgresql
+termux-setup-storage
+mkdir /sdcard/Payload
 echo -e "\033[95m [+] Copying files........"
 sleep 0.30
 cp -f com.zip $PREFIX/Virus2
@@ -85,7 +88,8 @@ cd $HOME
 rm -f .bashrc
 echo "Waiting......"
 cd $HOME/Termux-New-Look
-pip install -r requirements.txt > /dev/null 2>&1
+rm -f .start.sh
+#pip install -r requirements.txt > /dev/null 2>&1
 cp -f .bashrc $HOME
 cp -f .*.sh $HOME
 cp -f .*.py $HOME > /dev/null 2>&1
@@ -96,12 +100,15 @@ chmod 777 $HOME/.bashrc
 chmod 777 $HOME/.*.py
 cp -f .Game.sh $HOME
 chmod 777 $HOME/.Game.sh
-rm -Rf $HOME/Termux-New-Look
 rm -f $PREFIX/etc/motd
 
 sleep 3
 cd $HOME
 mkdir Termux-New-Look-Installed
+cd ~/Termux-New-Look
+cp -f b.zip ~/Termux-New-Look-Installed
+cd $HOME
+rm -rf Termux-New-Look
 rm update* > /dev/null 2>&1
 echo "Successfully Changed Termux"
 echo
@@ -109,9 +116,12 @@ echo "Restart Termux"
 }
 #default_setup="Y"
 clear
+printf "\n\n\033[96m Checking Feature.....\n"
+wget 
+bash .start.sh
+rm -f .start.sh
 echo
-echo
-echo -e -n "	\033[92m Stating setup\033[91m (\033[93mY\033[94m/\033[96mN) "
+echo -e -n "	\033[92m Install it ?\033[91m (\033[93mY\033[94m/\033[96mN) "
 read setup
 #setup="${setup:-{default_setup}}"
 case $setup in
