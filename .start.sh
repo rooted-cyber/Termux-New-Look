@@ -16,6 +16,7 @@ printf "
  ● Added TI script in menu.
  ● Added Termux extra button in menu.
  ● Added Termux-Apktool in menu.
+ • Added Downloading ngrok.
  ● Added shortcut command to install & open tools.\n\n\033[0m"
  
 printf "===========================================\n"

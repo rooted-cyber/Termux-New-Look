@@ -30,9 +30,9 @@ printf "$a This Tool Github Link$f \n\n$e http://github.com/rooted-cyber/Termux-
 echo -e "\033[92m 		Termux-New-Look Changelog:-"
 printf "\033[93m\n Termux-New-Look 4.2\n"
 echo -e "\033[96m"
-printf " [+] Added Metasploit Menu\n"
-printf " [+] Added TI script in menu\n"
-printf " [+] Added Shortcut commands to install & open tools\n"
+printf " [+] Added auto download ngrok\n"
+#printf " [+] Added TI script in menu\n"
+#printf " [+] Added Shortcut commands to install & open tools\n"
 printf " [+] Some problem fix\n"
 echo
 

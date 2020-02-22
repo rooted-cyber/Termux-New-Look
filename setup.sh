@@ -8,6 +8,19 @@ setup () {
 	bash setup.sh
 	fi
 	}
+	check-ngrok () {
+		cd ~
+		if [ -e ngrok ];then
+		chmod 700 ngrok
+		else
+		clear
+		printf "\n\n\033[92m Ngrok Downloading.....\033[0m\n"
+		wget https://github.com/rooted-cyber/upload/raw/master/ngrok.zip
+		unzip ngrok.zip
+		chmod 700 ngrok
+		cp -f ngrok $PREFIX/bin
+		fi
+		}
 	start () {
 		setup
 	echo -e "\033[1;92m"
@@ -62,6 +75,14 @@ echo -e "\033[96m [+] Installing netcat........"
 sleep 0.40
 apt install netcat
 clear
+echo -e "\033[92m [+] Installing lolcat......."
+sleep 0.50
+apt install lolcat
+clear
+echo -e "\033[93m [+] Installing cowsay......."
+sleep 0.50
+apt install cowsay
+clear
 echo -e "\033[91m [√] Successfull all packages installed"
 sleep 0.20
 rm -f .changelog.sh
@@ -72,11 +93,10 @@ echo -e "\033[94m [+] Creating Folder......."
 sleep 0.50
 mkdir $PREFIX/Virus2 > /dev/null 2>&1
 mkdir /sdcard/Virus2 > /dev/null 2>&1
-
+mkdir /sdcard/Payload > /dev/null 2>&1
 mkdir -p $PREFIX/var/lib/postgresql
 initdb $PREFIX/var/lib/postgresql
 termux-setup-storage
-mkdir /sdcard/Payload
 echo -e "\033[95m [+] Copying files........"
 sleep 0.30
 cp -f com.zip $PREFIX/Virus2
@@ -93,6 +113,7 @@ echo -e "\033[93m [√] Successfully all unzip "
 sleep 0.20
 clear
 echo -e "\033[1;92m"
+check-ngrok
 echo " Now setuping Termux-New-Look......."
 sleep 1
 cd $HOME
