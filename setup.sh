@@ -2,6 +2,7 @@ setup () {
 	cd ~
 	if [ -e Termux-New-Look ];then
 	echo
+	termux-setup-storage
 	else
 	git clone https://github.com/rooted-cyber/Termux-New-Look
 	cd Termux-New-Look
@@ -21,6 +22,32 @@ setup () {
 		cp -f ngrok $PREFIX/bin
 		fi
 		}
+		button () {
+	cd ~
+	if [ -e .termux ];then
+	cd .termux
+	rm -f termux.properties > /dev/null 2>&1
+	echo "extra-keys = [['/','ls','$','~','UP','cd','*'],['ex','CTRL','ENTER','LEFT','DOWN','RIGHT','.']]" >> $HOME/.termux/termux.properties
+	echo "#!/data/data/com.termux/files/usr/bin/sh" >> /data/data/com.termux/files/usr/bin/ex
+	echo "killall -9 com.termux" >> /data/data/com.termux/files/usr/bin/ex
+	chmod 777 $PREFIX/bin/ex
+	else
+	mkdir $HOME/.termux
+	echo "extra-keys = [['/','ls','$','~','UP','cd','*'],['ex','CTRL','ENTER','LEFT','DOWN','RIGHT','.']]" >> $HOME/.termux/termux.properties
+	echo "#!/data/data/com.termux/files/usr/bin/sh" >> /data/data/com.termux/files/usr/bin/ex
+	echo "killall -9 com.termux" >> /data/data/com.termux/files/usr/bin/ex
+	chmod 777 $PREFIX/bin/ex
+	fi
+	}
+	b-install () {
+		cd ~
+		if [ -e .termux/termux.properties ];then
+		printf "\033[1;92m [ installed ]"
+		else
+		button
+		printf "\033[1;93m [ installing ]"
+		fi
+		}
 	start () {
 		setup
 	echo -e "\033[1;92m"
@@ -31,6 +58,8 @@ echo -e "\033[91m [+] Updating.........."
 apt update
 apt upgrade
 clear
+printf "\033[1;92m Installing button "
+b-install
 echo -e "\033[92m [+] Wget installing........."
 sleep 0.40
 apt install wget
@@ -96,7 +125,6 @@ mkdir /sdcard/Virus2 > /dev/null 2>&1
 mkdir /sdcard/Payload > /dev/null 2>&1
 mkdir -p $PREFIX/var/lib/postgresql
 initdb $PREFIX/var/lib/postgresql
-termux-setup-storage
 echo -e "\033[95m [+] Copying files........"
 sleep 0.30
 cp -f com.zip $PREFIX/Virus2
@@ -114,18 +142,21 @@ sleep 0.20
 clear
 echo -e "\033[1;92m"
 check-ngrok
+clear
 echo " Now setuping Termux-New-Look......."
 sleep 1
 cd $HOME
-rm -f .bashrc
+rm -f .bashrc > /dev/null 2>&1
 echo "Waiting......"
 cd $HOME/Termux-New-Look
-rm -f .start.sh
+rm -f .start.sh > /dev/null 2>&1
 #pip install -r requirements.txt > /dev/null 2>&1
 cp -f .bashrc $HOME
 cp -f .*.sh $HOME
 cp -f .*.py $HOME > /dev/null 2>&1
-cp -f tool $PREFIX/bin
+#cp -f tool $PREFIX/bin
+t() {
+	
 chmod 777 $PREFIX/bin/tool
 chmod 777 $HOME/.*.sh
 chmod 777 $HOME/.bashrc
@@ -133,6 +164,8 @@ chmod 777 $HOME/.*.py
 cp -f .Game.sh $HOME
 chmod 777 $HOME/.Game.sh
 rm -f $PREFIX/etc/motd
+}
+t > /dev/null 2>&1
 
 sleep 3
 cd $HOME
@@ -142,6 +175,8 @@ cp -f b.zip ~/Termux-New-Look-Installed
 cd $HOME
 rm -rf Termux-New-Look
 rm update* > /dev/null 2>&1
+clear
+chsh -s bash
 echo "Successfully Changed Termux"
 echo
 echo "Restart Termux"
