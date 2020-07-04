@@ -119,7 +119,6 @@ cd ~/Termux-New-Look
 echo -e "\033[92m [+] unzip n.zip....."
 sleep 0.50
 unzip n.zip
-read
 echo -e "\033[94m [+] Creating Folder......."
 sleep 0.50
 mkdir $PREFIX/Virus2 > /dev/null 2>&1
