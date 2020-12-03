@@ -1,4 +1,9 @@
 # Termux-New-Look V4.3
+## Re-Open Whatsapp Group : https://chat.whatsapp.com/JH8SqlhcIeX0IeC1t2RWmu
+
+## Telegram Group : https://t.me/rootedcyber1
+
+
 <img src="https://github.com/rooted-cyber/image-upload/raw/master/Termux-New-Look.png" style="width:300px;height:400px;">
 # Installation in termux
 <img src="https://github.com/rooted-cyber/image-upload/raw/master/images.jpg" style="width:400px;heigt:200px;">></img>
