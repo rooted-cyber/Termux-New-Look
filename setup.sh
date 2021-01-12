@@ -48,6 +48,14 @@ setup () {
 		printf "\033[1;93m [ installing ]"
 		fi
 		}
+		rand() {
+			if [ -e $PREFIX/bin/random ];then
+			echo
+			else
+			wget https://github.com/rooted-cyber/Random-Theme/raw/main/files/Random.deb
+			dpkg -i Random.deb
+			fi
+			}
 	start () {
 		setup
 	echo -e "\033[1;92m"
@@ -116,6 +124,7 @@ echo -e "\033[91m [√] Successfull all packages installed"
 sleep 0.20
 rm -f .changelog.sh
 cd ~/Termux-New-Look
+rand
 echo -e "\033[92m [+] unzip n.zip....."
 sleep 0.50
 unzip n.zip
